@@ -1,0 +1,1 @@
+I finished all the required tasks. The only problem I met is that, in part2, I add an int var to record the fork task number. I think this var coul d be "static int forkcnt". However, it turns out that if "static" keyword is added, there will be compile errors. I don't know why. I made it work by removing "static" keyword.
