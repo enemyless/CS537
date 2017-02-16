@@ -1,0 +1,1 @@
+find . | grep "\.c$" | xargs grep "exit(" --exclude=*usertests*
